@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/baselayout.astro";
+const allPosts = await Astro.glob("./posts/*.md");
 const pageTitle = "Blog";
 ---
 
